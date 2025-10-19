@@ -358,7 +358,7 @@ with tabs[3]:
     if st.button("💾 Save Config"):
         save_config(cfg)
         st.success("Saved.")
-    if st.button("🗑️ Clear Old Data"):
+    if st.button("🗑️ Clear Data"):
         for f in [TICKETS_CSV, LOG_CSV, METRICS_CSV]:
             if os.path.exists(f): os.remove(f)
         st.warning("All old data cleared.")
@@ -375,4 +375,5 @@ with tabs[4]:
         write_csv_safe(merged, KB_CSV)
         write_csv_safe(merged, KB_CSV)
         st.success(f"Knowledge base updated and saved to {os.path.abspath(KB_CSV)}")
+
 
