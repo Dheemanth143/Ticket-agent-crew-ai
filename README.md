@@ -1,4 +1,4 @@
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/103c006a-ad76-4dc7-b01a-dd7154412370" /># 🤖 Feedback AI  
+# 🤖 Feedback AI  
 ### Multi-Agent Ticket Management System (CrewAI + Groq + Streamlit)
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
@@ -24,7 +24,7 @@ It combines **CrewAI orchestration**, **Groq LLM reasoning**, and **Streamlit da
 
 ## 🧩 Architecture
 
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/aee3646b-bbee-4ab7-b834-401acbcb91a8" />
+<img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/aee3646b-bbee-4ab7-b834-401acbcb91a8" />
 
 
 Agents used:
@@ -91,3 +91,4 @@ AI Engineer & Creator of Feedback AI
 This project is licensed under the MIT License
 
 .
+
