@@ -1,0 +1,11 @@
+streamlit
+pandas
+python-dotenv
+crewai
+streamlit-aggrid
+groq
+openpyxl
+matplotlib
+typing_extensions
+requests
+

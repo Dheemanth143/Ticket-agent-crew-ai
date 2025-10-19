@@ -1,0 +1,8 @@
+﻿pattern,category,severity,priority,notes,kb_notes,review_id,review_text,rating,platform,app_version,user_name,date,"review_id,platform,rating,review_text,user_name,date,app_version","email_id,subject,body,sender_email,timestamp,priority"
+login fails,Bug,High,High,Known auth issue,,,,,,,,,,
+slow performance,Complaint,,Medium,Investigate perf,,,,,,,,,,
+error page,Bug,High,High,Known auth issue,,,,,,,,,,
+payment declined,Bug,High,High,Payments gateway,,,,,,,,,,
+dark mode,Feature Request,Medium,Medium,Popular request,,,,,,,,,,
+thank you,Praise,,Low,Positive feedback,,,,,,,,,,
+nan,,,,,,,,,,,,,,

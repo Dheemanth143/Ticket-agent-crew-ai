@@ -1,0 +1,43 @@
+{
+  "classification_threshold": 0.42,
+  "retention_days": 7,
+  "use_crewai_summary": true,
+  "priority_logic": "sentiment-based",
+  "spam_keywords": [
+    "buy now",
+    "free $$$",
+    "click here",
+    "promo"
+  ],
+  "bug_keywords": [
+    "crash",
+    "error",
+    "fail",
+    "freeze",
+    "bug",
+    "doesn't work",
+    "can't login",
+    "data loss"
+  ],
+  "feature_keywords": [
+    "please add",
+    "feature request",
+    "would love",
+    "dark mode",
+    "export"
+  ],
+  "complaint_keywords": [
+    "slow",
+    "expensive",
+    "bad service",
+    "rude",
+    "not happy"
+  ],
+  "praise_keywords": [
+    "amazing",
+    "love",
+    "great",
+    "works perfectly",
+    "excellent"
+  ]
+}

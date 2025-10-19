@@ -1,0 +1,8 @@
+pattern,category,severity,priority,notes,kb_notes
+Error page,Bug,High,High,Known auth issue,
+payment declined,Bug,High,High,Payments gateway,
+dark mode,Feature Request,Medium,Medium,Popular request,
+Too slow,Complaint,Low,Medium,Investigate perf,
+thank you,Praise,,Low,Positive feedback,
+Leave business,Complaint,Low,Low,No action,
+nan,,,,,

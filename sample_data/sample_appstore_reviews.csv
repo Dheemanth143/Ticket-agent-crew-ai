@@ -1,0 +1,51 @@
+review_id,review_text,rating,platform,app_version,user_name,date
+101,App crashes every time I open it,1,Android,2.3.1,iusdhoa,Oct-25
+102,Login fails after update,1,iOS,3.1.0,dbuoshd,Oct-25
+103,No promotions available this month,2,Android,2.3.1,sboxuss,Oct-25
+104,Please add dark mode,4,iOS,3.1.0,sbd,Oct-25
+105,"Amazing app, works perfectly!",5,Android,2.3.1,sdb,Oct-25
+106,Urgent: I need biometric login,3,iOS,3.1.0,sdhiw,Oct-25
+107,App is slow and lags often,2,Android,2.3.1,iusdhoa,Oct-25
+108,Buy now! Visit this site,5,Android,2.3.1,dbuoshd,Oct-25
+109,Login fails again after reinstall,1,iOS,3.1.0,sboxuss,Oct-25
+110,Nice to have a calendar sync,4,Android,2.3.1,sbd,Oct-25
+111,App freezes randomly,1,Android,2.3.1,sdb,Oct-25
+112,Too many ads in the free version,2,iOS,3.1.0,sdhiw,Oct-25
+113,Crash on launch after update,1,Android,2.3.1,iusdhoa,Oct-25
+114,Would love to see themes,4,iOS,3.1.0,iusdhoa,Oct-25
+115,Poor customer support,2,Android,2.3.1,dbuoshd,Oct-25
+116,Login fails on WiFi,1,iOS,3.1.0,sboxuss,Oct-25
+117,Urgent: fix the crashing issue,1,Android,2.3.1,sbd,Oct-25
+118,"Great app, very useful!",5,iOS,3.1.0,sdb,Oct-25
+119,Please add export to PDF,4,Android,2.3.1,sdhiw,Oct-25
+120,App crashes when uploading photo,1,iOS,3.1.0,iusdhoa,Oct-25
+121,No referral bonus received,2,Android,2.3.1,dbuoshd,Oct-25
+122,Biometric login would be great,4,iOS,3.1.0,sboxuss,Oct-25
+123,Login fails with error code 403,1,Android,2.3.1,sbd,Oct-25
+124,Nice to have a widget,4,iOS,3.1.0,sdb,Oct-25
+125,App is slow on older phones,2,Android,2.3.1,sdhiw,Oct-25
+126,Buy followers now!,5,iOS,3.1.0,iusdhoa,Oct-25
+127,Crash when switching tabs,1,Android,2.3.1,iusdhoa,Oct-25
+128,No promo codes for loyal users,2,iOS,3.1.0,dbuoshd,Oct-25
+129,Please add offline mode,4,Android,2.3.1,sboxuss,Oct-25
+130,Login fails on mobile data,1,iOS,3.1.0,sbd,Oct-25
+131,Urgent: fix login bug,1,Android,2.3.1,sdb,Oct-25
+132,Love the new update!,5,iOS,3.1.0,sdhiw,Oct-25
+133,App crashes during checkout,1,Android,2.3.1,iusdhoa,Oct-25
+134,Too expensive for what it offers,2,iOS,3.1.0,dbuoshd,Oct-25
+135,Would love to see reminders,4,Android,2.3.1,sboxuss,Oct-25
+136,Login fails after password reset,1,iOS,3.1.0,sbd,Oct-25
+137,App freezes when scrolling,1,Android,2.3.1,sdb,Oct-25
+138,Nice to have voice commands,4,iOS,3.1.0,sdhiw,Oct-25
+139,Crash when opening settings,1,Android,2.3.1,iusdhoa,Oct-25
+140,No loyalty rewards,2,iOS,3.1.0,iusdhoa,Oct-25
+141,Urgent: app unusable after update,1,Android,2.3.1,dbuoshd,Oct-25
+142,Great job team!,5,iOS,3.1.0,sboxuss,Oct-25
+143,Please add multi-language support,4,Android,2.3.1,sbd,Oct-25
+144,Login fails on tablet,1,iOS,3.1.0,sdb,Oct-25
+145,App is slow on startup,2,Android,2.3.1,sdhiw,Oct-25
+146,Buy crypto now!,5,iOS,3.1.0,iusdhoa,Oct-25
+147,Crash when uploading video,1,Android,2.3.1,dbuoshd,Oct-25
+148,No discount for students,2,iOS,3.1.0,sboxuss,Oct-25
+149,Would love to see calendar integration,4,Android,2.3.1,sbd,Oct-25
+150,Login fails with timeout error,1,iOS,3.1.0,sdb,Oct-25
