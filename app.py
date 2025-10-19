@@ -198,18 +198,21 @@ Respond in JSON."""
 # ---------- TICKET PIPELINE ----------
 def process_feedbacks(df: pd.DataFrame, cfg: Dict) -> pd.DataFrame:
     tcol = detect_text_col(df)
-    if not tcol: raise ValueError("No text column found.")
+    if not tcol:
+        raise ValueError("No text column found.")
+    
     canon = pd.DataFrame({
         "source_id": df.index.astype(str),
-        "source_type": ["upload"]*len(df),
+        "source_type": ["upload"] * len(df),
         "text": df[tcol].astype(str)
     })
+
     kb = load_kb()
     tickets = []
     for _, r in canon.iterrows():
         text = r["text"]
         cat, conf, extra = heuristic_classify(text)
-        sev, imp = extra.get("severity",""), extra.get("impact","")
+        sev, imp = extra.get("severity", ""), extra.get("impact", "")
         if conf < cfg["classification_threshold"]:
             escal = escalate_with_crewai(text)
             if escal:
@@ -218,10 +221,10 @@ def process_feedbacks(df: pd.DataFrame, cfg: Dict) -> pd.DataFrame:
                 sev = escal.get("severity", sev)
                 imp = escal.get("impact", imp)
         tickets.append({
-            "ticket_id": f"T-{r['source_id']}",
+            "ticket_id": f"T-{r['source_id']}-{int(dt.datetime.now().timestamp())}",  # ensure unique ID
             "title": f"[{cat}] #{r['source_id']}",
             "category": cat,
-            "priority": "High" if sev=="High" else "Medium",
+            "priority": "High" if sev == "High" else "Medium",
             "severity": sev,
             "impact": imp,
             "source_id": r["source_id"],
@@ -230,9 +233,20 @@ def process_feedbacks(df: pd.DataFrame, cfg: Dict) -> pd.DataFrame:
             "created_at": dt.date.today().isoformat(),
             "agent": "Hybrid"
         })
+
     tdf = pd.DataFrame(tickets)
-    write_csv_safe(tdf, TICKETS_CSV)
-    return tdf
+
+    # 🧩 Append to existing CSV instead of overwriting
+    existing = read_csv_safe(TICKETS_CSV)
+    if not existing.empty:
+        combined = pd.concat([existing, tdf], ignore_index=True)
+        combined = combined.drop_duplicates(subset=["text"], keep="last")  # avoid exact duplicate feedbacks
+    else:
+        combined = tdf
+
+    write_csv_safe(combined, TICKETS_CSV)
+    return combined
+
 
 # ---------- SUMMARY ----------
 def crew_summary_for_run(tdf: pd.DataFrame) -> str:
