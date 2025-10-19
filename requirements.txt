@@ -8,4 +8,5 @@ openpyxl
 matplotlib
 typing_extensions
 requests
+tabulate
 
