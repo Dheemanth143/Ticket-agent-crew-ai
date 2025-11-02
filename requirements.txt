@@ -1,8 +1,8 @@
 streamlit
 pandas
 python-dotenv
-crewai==0.6.9
-litellm==1.36.0
+crewai==1.2.1
+litellm==1.37.0
 streamlit-aggrid
 groq
 openpyxl
