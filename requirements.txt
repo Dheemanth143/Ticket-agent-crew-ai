@@ -1,10 +1,10 @@
-streamlit==1.32.0
+streamlit
 pandas
 python-dotenv
-crewai==1.2.1
-litellm==1.35.0
+crewai
+litellm
+streamlit-aggrid
 groq
-streamlit-aggrid==0.3.4.post3
 openpyxl
 matplotlib
 typing_extensions
