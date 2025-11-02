@@ -1,0 +1,51 @@
+﻿ticket_id,title,category,priority,severity,impact,source_id,text,status,created_at,agent
+T-0,[Bug] #0,Bug,High,High,,0,App crashes every time I open it,Pending,2025-11-02,Hybrid
+T-1,[Bug] #1,Bug,High,High,,1,Login fails after update,Pending,2025-11-02,Hybrid
+T-2,[Complaint] #2,Complaint,Medium,,,2,No promotions available this month,Pending,2025-11-02,Hybrid
+T-3,[Feature Request] #3,Feature Request,Medium,,Medium,3,Please add dark mode,Pending,2025-11-02,Hybrid
+T-4,[Complaint] #4,Complaint,Medium,,,4,"Amazing app, works perfectly!",Pending,2025-11-02,Hybrid
+T-5,[Complaint] #5,Complaint,Medium,,,5,Urgent: I need biometric login,Pending,2025-11-02,Hybrid
+T-6,[Complaint] #6,Complaint,Medium,,,6,App is slow and lags often,Pending,2025-11-02,Hybrid
+T-7,[Complaint] #7,Complaint,Medium,,,7,Buy now! Visit this site,Pending,2025-11-02,Hybrid
+T-8,[Bug] #8,Bug,High,High,,8,Login fails again after reinstall,Pending,2025-11-02,Hybrid
+T-9,[Complaint] #9,Complaint,Medium,,,9,Nice to have a calendar sync,Pending,2025-11-02,Hybrid
+T-10,[Complaint] #10,Complaint,Medium,,,10,App freezes randomly,Pending,2025-11-02,Hybrid
+T-11,[Complaint] #11,Complaint,Medium,,,11,Too many ads in the free version,Pending,2025-11-02,Hybrid
+T-12,[Bug] #12,Bug,High,High,,12,Crash on launch after update,Pending,2025-11-02,Hybrid
+T-13,[Praise] #13,Praise,Medium,,,13,Would love to see themes,Pending,2025-11-02,Hybrid
+T-14,[Complaint] #14,Complaint,Medium,,,14,Poor customer support,Pending,2025-11-02,Hybrid
+T-15,[Bug] #15,Bug,High,High,,15,Login fails on WiFi,Pending,2025-11-02,Hybrid
+T-16,[Bug] #16,Bug,High,High,,16,Urgent: fix the crashing issue,Pending,2025-11-02,Hybrid
+T-17,[Praise] #17,Praise,Medium,,,17,"Great app, very useful!",Pending,2025-11-02,Hybrid
+T-18,[Feature Request] #18,Feature Request,Medium,,Medium,18,Please add export to PDF,Pending,2025-11-02,Hybrid
+T-19,[Bug] #19,Bug,High,High,,19,App crashes when uploading photo,Pending,2025-11-02,Hybrid
+T-20,[Complaint] #20,Complaint,Medium,,,20,No referral bonus received,Pending,2025-11-02,Hybrid
+T-21,[Praise] #21,Praise,Medium,,,21,Biometric login would be great,Pending,2025-11-02,Hybrid
+T-22,[Bug] #22,Bug,High,High,,22,Login fails with error code 403,Pending,2025-11-02,Hybrid
+T-23,[Complaint] #23,Complaint,Medium,,,23,Nice to have a widget,Pending,2025-11-02,Hybrid
+T-24,[Complaint] #24,Complaint,Medium,,,24,App is slow on older phones,Pending,2025-11-02,Hybrid
+T-25,[Complaint] #25,Complaint,Medium,,,25,Buy followers now!,Pending,2025-11-02,Hybrid
+T-26,[Bug] #26,Bug,High,High,,26,Crash when switching tabs,Pending,2025-11-02,Hybrid
+T-27,[Complaint] #27,Complaint,Medium,,,27,No promo codes for loyal users,Pending,2025-11-02,Hybrid
+T-28,[Feature Request] #28,Feature Request,Medium,,Medium,28,Please add offline mode,Pending,2025-11-02,Hybrid
+T-29,[Bug] #29,Bug,High,High,,29,Login fails on mobile data,Pending,2025-11-02,Hybrid
+T-30,[Complaint] #30,Complaint,Medium,,,30,Urgent: fix login bug,Pending,2025-11-02,Hybrid
+T-31,[Praise] #31,Praise,Medium,,,31,Love the new update!,Pending,2025-11-02,Hybrid
+T-32,[Bug] #32,Bug,High,High,,32,App crashes during checkout,Pending,2025-11-02,Hybrid
+T-33,[Complaint] #33,Complaint,Medium,,,33,Too expensive for what it offers,Pending,2025-11-02,Hybrid
+T-34,[Praise] #34,Praise,Medium,,,34,Would love to see reminders,Pending,2025-11-02,Hybrid
+T-35,[Bug] #35,Bug,High,High,,35,Login fails after password reset,Pending,2025-11-02,Hybrid
+T-36,[Complaint] #36,Complaint,Medium,,,36,App freezes when scrolling,Pending,2025-11-02,Hybrid
+T-37,[Complaint] #37,Complaint,Medium,,,37,Nice to have voice commands,Pending,2025-11-02,Hybrid
+T-38,[Bug] #38,Bug,High,High,,38,Crash when opening settings,Pending,2025-11-02,Hybrid
+T-39,[Complaint] #39,Complaint,Medium,,,39,No loyalty rewards,Pending,2025-11-02,Hybrid
+T-40,[Complaint] #40,Complaint,Medium,,,40,Urgent: app unusable after update,Pending,2025-11-02,Hybrid
+T-41,[Praise] #41,Praise,Medium,,,41,Great job team!,Pending,2025-11-02,Hybrid
+T-42,[Feature Request] #42,Feature Request,Medium,,Medium,42,Please add multi-language support,Pending,2025-11-02,Hybrid
+T-43,[Bug] #43,Bug,High,High,,43,Login fails on tablet,Pending,2025-11-02,Hybrid
+T-44,[Complaint] #44,Complaint,Medium,,,44,App is slow on startup,Pending,2025-11-02,Hybrid
+T-45,[Complaint] #45,Complaint,Medium,,,45,Buy crypto now!,Pending,2025-11-02,Hybrid
+T-46,[Bug] #46,Bug,High,High,,46,Crash when uploading video,Pending,2025-11-02,Hybrid
+T-47,[Complaint] #47,Complaint,Medium,,,47,No discount for students,Pending,2025-11-02,Hybrid
+T-48,[Praise] #48,Praise,Medium,,,48,Would love to see calendar integration,Pending,2025-11-02,Hybrid
+T-49,[Bug] #49,Bug,High,High,,49,Login fails with timeout error,Pending,2025-11-02,Hybrid
