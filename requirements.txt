@@ -2,7 +2,7 @@ streamlit
 pandas
 python-dotenv
 crewai==1.2.1
-litellm==1.37.0
+litellm==1.35.0
 streamlit-aggrid
 groq
 openpyxl
