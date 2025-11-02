@@ -1,12 +1,12 @@
 streamlit==1.32.0
 pandas
 python-dotenv
-crewai==1.1.5
-litellm==1.35.15
+crewai==1.2.1
+litellm==1.35.0
 groq
+streamlit-aggrid==0.3.4.post3
 openpyxl
 matplotlib
 typing_extensions
 requests
 tabulate
-streamlit-aggrid==0.3.4.post3
